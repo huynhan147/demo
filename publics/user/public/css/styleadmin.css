@@ -1,0 +1,68 @@
+
+.main-content{
+    padding: 20px 20px;
+}
+/*Phân trang*/
+.phantrang1 {
+    padding:2px 5px 2px 5px;
+    margin:2px;
+    border:1px solid #999;
+    color: #666;
+}
+.phantrang2 {
+
+    background-color: #999;
+
+}
+.phantrang{
+    margin: 0 auto;
+    text-align: center;
+}
+@media (max-width: 900px) {
+    .table_don_hang {
+        width: 100%;
+        display:block;
+    }
+
+    .table_don_hang table {
+        width: 100%;
+        display: inline-block;
+        overflow: auto;
+    }
+}
+@media (max-width: 800px) {
+    .table_thanh_vien {
+        width: 100%;
+        display:block;
+    }
+
+    .table_thanh_vien table {
+        width: 100%;
+        display: inline-block;
+        overflow: auto;
+    }
+}
+@media (max-width: 650px) {
+    .table_nha_xuat_ban {
+        width: 100%;
+        display:block;
+    }
+
+    .table_nha_xuat_ban table {
+        width: 100%;
+        display: inline-block;
+        overflow: auto;
+    }
+}
+@media (max-width: 450px) {
+    .table_loai_hang {
+        width: 100%;
+        display:block;
+    }
+
+    .table_loai_hang table {
+        width: 100%;
+        display: inline-block;
+        overflow: auto;
+    }
+}
